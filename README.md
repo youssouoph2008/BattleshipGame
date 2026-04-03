@@ -49,11 +49,8 @@ DOM API for interactive boards
 battleship/
 ├─ index.html       # Main HTML file
 ├─ style.css        # CSS for boards and styling
-├─ script.js        # Main game logic
+├─ game.js        # Main game logic
 ├─ tests/
-│   └─ ship.test.js
-│   └─ gameboard.test.js
-│   └─ player.test.js
 └─ README.md        # Project documentation
 ## Testing
 
