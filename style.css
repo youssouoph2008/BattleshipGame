@@ -1,0 +1,73 @@
+body{
+    background-color: #333;    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-container{
+    display: flex;
+    gap: 20px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    border: 1px solid #fff;
+}
+
+.cell{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+}
+
+.cell.hit{
+    background-color: red;
+}
+
+.cell.miss{
+    background-color: blue;
+}
+
+.cell.ship{
+    background-color: green;
+}
+
+.cell.sunk{
+    background-color: black;
+}
+
+.cell.empty{
+    background-color: #333;
+}
+
+.cell.hit:hover{
+    background-color: red;
+}
+
+.cell.miss:hover{
+    background-color: blue;
+}
+
+.cell.ship:hover{
+    background-color: green;
+}
+
+.cell.sunk:hover{
+    background-color: black;
+}
+
+.cell.empty:hover{
+    background-color: #333;
+}
